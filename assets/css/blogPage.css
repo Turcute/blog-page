@@ -58,10 +58,39 @@ body {
 .macText{
   margin-top: 24px;
   margin-left: 1px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   line-height: 28px;
   width: 1112px;
   font-weight: 400;
   font-size: 16px;
 }
 /* Mac Content End */
+  
+/* Mac Studio Content Start */
+.macStudio{
+  margin-top: 54.5px;
+}
+
+.studioImg{
+  margin-left: 1px;
+  margin-right: 24px;
+  float: left;
+  border-radius: 16px;
+  width: 540px;
+  height: 387px;
+  opacity: 1;
+}
+
+.studioH3{
+  position: relative;
+  top: -16px;
+}
+
+.studioText{
+  width: 1100px;
+  height: 438px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
