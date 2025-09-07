@@ -5,8 +5,11 @@ body {
 }
 
 .container{
-  max-width: 1440px;
-  margin-inline: 165px;
+  width: 1440px;
+  height: 3531px;
+  margin: 0 auto;
+  padding: 0 165px;
+  box-sizing: border-box;
 }
 
 /* Head Start */
@@ -21,7 +24,7 @@ body {
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -0.4px;
-  width: 650px;
+  width: 800px;
 }
 
 .appleContentImg{
@@ -84,13 +87,78 @@ body {
 .studioH3{
   position: relative;
   top: -16px;
+  font-family: montserrat;
 }
 
 .studioText{
   width: 1100px;
-  height: 438px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }
+/* Mac Studio Content End */
+
+/* Motto Content Start */
+.mottoBG{
+  width: 1110px;
+  height: 347px;
+  margin-top: 100px;
+  opacity: 1;
+  border-radius: 12px;
+  background-color: #ECF1F8;
+}
+
+.mottoH3{
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 53px;
+  font-family:'Montserrat', sans-serif;;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.mottoH4{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+/* Motto Content End */
+
+/* Mac Studio Content Start */
+.appleWatch{
+  margin-top: 54.5px;
+}
+
+.watchImg{
+  margin-left: 24px;
+  float: right;
+  border-radius: 16px;
+  width: 540px;
+  height: 387px;
+  opacity: 1;
+}
+
+.watchH3{
+  position: relative;
+  top: 5px;
+  font-family: montserrat;
+}
+
+.watchText{
+  width: 1100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 5px;
+}
+/* Apple Watch Content End */
