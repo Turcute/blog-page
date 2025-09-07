@@ -6,11 +6,12 @@ body {
 
 .container{
   max-width: 1440px;
+  margin-inline: 165px;
 }
 
+/* Head Start */
 .appleSection{
   width: 1100px;
-  margin-inline: 165px;
   margin-top: 80px;
 }
 
@@ -43,3 +44,24 @@ body {
     border-bottom: 1px solid #EAEAEA;
     padding-top: 12px;
 }
+/* Head End/
+
+/* Mac Content Start */
+.mac{
+  width: 1100px;
+  height: 624px;
+  margin-top: 44px;
+  opacity: 1;
+  border-radius: 12px;
+}
+
+.macText{
+  margin-top: 24px;
+  margin-left: 1px;
+  font-family: Open Sans;
+  line-height: 28px;
+  width: 1112px;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* Mac Content End */
