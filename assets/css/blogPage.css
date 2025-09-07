@@ -135,7 +135,7 @@ body {
 
 /* Mac Studio Content Start */
 .appleWatch{
-  margin-top: 54.5px;
+  margin-top: 80px;
 }
 
 .watchImg{
@@ -162,3 +162,35 @@ body {
   padding-top: 5px;
 }
 /* Apple Watch Content End */
+
+/* Apple Series 5 Content Start */
+.series5Container{
+  margin-top: 128px;
+  position: relative;
+}
+
+.seriesTitle{
+font-family: Montserrat;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+letter-spacing: -0.35px;
+}
+
+.seriesImg{
+  width: 1110px;
+  height: 624px;
+  opacity: 1;
+  border-radius: 12px;
+  display: block;
+}
+
+.seriesIcon{
+  width: 53;
+  height: 64;
+  opacity: 1;
+  position: absolute;
+  top: 55%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
